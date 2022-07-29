@@ -1,9 +1,9 @@
 <p align="center">
-    <img src="https://i.imgur.com/VZ3uLlJ.png" alt="Laravel Achievements Logo">
+    <img src="https://img001.prntscr.com/file/img001/raVRkHIpR5umm0BTyUtkpg.png" alt="Laravel Achievements Logo">
 </p>
 
 <p align="center">
-<a href="https://travis-ci.org/itvoland/laravel-achievements"><img src="https://travis-ci.org/itvoland/laravel-achievements.svg" alt="Build Status"></a>
+<a href="https://app.travis-ci.com/itvoland/laravel-achievements"><img src="https://app.travis-ci.com/itvoland/laravel-achievements.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/itvoland/laravel-achievements"><img src="https://poser.pugx.org/itvoland/laravel-achievements/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/itvoland/laravel-achievements"><img src="https://poser.pugx.org/itvoland/laravel-achievements/license.svg" alt="License"></a>
 </p>
@@ -27,7 +27,6 @@ An implementation of an Achievement System in Laravel, inspired by Laravel's Not
 - PHP 7.2 or higher
 
 ## Versions and branches
-- v1.* - Original `Gstt\*` namespace with supporting Laravel 6 and PHP7.2 (only fix and security updates)
 - v2.* (master) - New namespace `ITVOLAND\*` with supporting Laravel >=6 and PHP7.2 (fixes, security and feature updates)
 
 ## <a name="installation"></a> Installation
