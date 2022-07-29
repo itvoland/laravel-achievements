@@ -4,8 +4,19 @@
     "type": "project",
     "license": "MIT",
     "autoload": {
+        "classmap": [
+            "src/Migrations"
+        ],
         "psr-4": {
-            "ITvoland\\LaravelAchievements\\": "src/"
+            "ITvoland\\Achievements\\": "src/",
+            "ITvoland\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ITvoland\\Achievements\\AchievementsServiceProvider"
+            ]
         }
     },
     "authors": [
@@ -15,5 +26,11 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "require": {
+        "ramsey/uuid": "^3 || ^4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8",
+        "laravel/laravel": "^6.0|^7.0|^8.0|^9.0"
+    }
 }
