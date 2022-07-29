@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<a href="https://travis-ci.org/itvoland/laravel-achievements"><img src="https://travis-ci.org/itvoland/laravel-achievements.svg" alt="Build Status"></a>
+<a href="https://app.travis-ci.com/github/itvoland/laravel-achievements"><img src="https://app.travis-ci.com/itvoland/laravel-achievements.svg" alt="Build Status"></a>
 <a href="https://packagist.org/packages/itvoland/laravel-achievements"><img src="https://poser.pugx.org/itvoland/laravel-achievements/d/total.svg" alt="Total Downloads"></a>
 <a href="https://packagist.org/packages/itvoland/laravel-achievements"><img src="https://poser.pugx.org/itvoland/laravel-achievements/license.svg" alt="License"></a>
 </p>
