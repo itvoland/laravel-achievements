@@ -1,0 +1,23 @@
+<?php
+declare(strict_types=1);
+namespace DummyNamespace;
+
+use ITvoland\Achievements\Achievement;
+
+/**
+ * Class Registered
+ *
+ * @package DummyNamespace
+ */
+class DummyClass extends Achievement
+{
+    /*
+     * The achievement name
+     */
+    public $name = 'DummyClass';
+
+    /*
+     * A small description for the achievement
+     */
+    public $description = '';
+}

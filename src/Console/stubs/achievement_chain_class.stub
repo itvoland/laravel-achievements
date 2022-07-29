@@ -1,0 +1,21 @@
+<?php
+declare(strict_types=1);
+namespace DummyNamespace;
+
+use ITvoland\Achievements\AchievementChain;
+
+/**
+ * Class Registered
+ *
+ * @package DummyNamespace
+ */
+class DummyClass extends AchievementChain
+{
+    /*
+     * Returns a list of instances of Achievements
+     */
+    public function chain(): array
+    {
+        return [];
+    }
+}
