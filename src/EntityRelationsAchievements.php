@@ -1,16 +1,17 @@
 <?php
 declare(strict_types=1);
-namespace ITvoland\Achievements;
 
-use ITvoland\Achievements\Model\AchievementDetails;
-use ITvoland\Achievements\Model\AchievementProgress;
+namespace ITVOLAND\Achievements;
+
+use ITVOLAND\Achievements\Model\AchievementDetails;
+use ITVOLAND\Achievements\Model\AchievementProgress;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 /**
  * Trait EntityRelationsAchievements
  *
- * @package Assada\Achievements
+ * @package ITVOLAND\Achievements
  */
 trait EntityRelationsAchievements
 {

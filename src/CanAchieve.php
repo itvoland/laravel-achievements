@@ -1,15 +1,16 @@
 <?php
 declare(strict_types=1);
-namespace ITvoland\Achievements;
+
+namespace ITVOLAND\Achievements;
 
 /**
  * Interface CanAchieve
  *
- * @package ITvoland\Achievements
+ * @package ITVOLAND\Achievements
  */
 interface CanAchieve
 {
-    // Adds a specified amount of points of progress
+    // Adds an specified amount of points of progress
     public function addProgressToAchiever($achiever, $points);
 
     // Sets the specified amount of points to this achiever

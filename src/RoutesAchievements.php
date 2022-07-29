@@ -1,14 +1,14 @@
 <?php
-
 declare(strict_types=1);
-namespace ITvoland\Achievements;
 
-use ITvoland\Achievements\Model\AchievementProgress;
+namespace ITVOLAND\Achievements;
+
+use ITVOLAND\Achievements\Model\AchievementProgress;
 
 /**
  * Trait RoutesAchievements
  *
- * @package Assada\Achievements
+ * @package ITVOLAND\Achievements
  */
 trait RoutesAchievements
 {

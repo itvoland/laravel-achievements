@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace ITvoland\Tests\AchievementChains;
+namespace ITVOLAND\Tests\AchievementChains;
 
-use ITvoland\Achievements\AchievementChain;
-use ITvoland\Tests\Achievements\FiftyPosts;
-use ITvoland\Tests\Achievements\FirstPost;
-use ITvoland\Tests\Achievements\TenPosts;
+use ITVOLAND\Achievements\AchievementChain;
+use ITVOLAND\Tests\Achievements\FiftyPosts;
+use ITVOLAND\Tests\Achievements\FirstPost;
+use ITVOLAND\Tests\Achievements\TenPosts;
 
 /**
  * Class PostChain
  *
- * @package ITvoland\Tests\AchievementChains
+ * @package ITVOLAND\Tests\AchievementChains
  */
 class PostChain extends AchievementChain
 {

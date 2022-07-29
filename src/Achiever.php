@@ -1,11 +1,12 @@
 <?php
 declare(strict_types=1);
-namespace ITvoland\Achievements;
+
+namespace ITVOLAND\Achievements;
 
 /**
  * Trait Achiever
  *
- * @package ITvoland\Achievements
+ * @package ITVOLAND\Achievements
  */
 trait Achiever
 {

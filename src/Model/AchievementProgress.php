@@ -1,10 +1,11 @@
 <?php
 declare(strict_types=1);
-namespace ITvoland\Achievements\Model;
+
+namespace ITVOLAND\Achievements\Model;
 
 use Carbon\Carbon;
 use Exception;
-use ITvoland\Achievements\Achievement;
+use ITVOLAND\Achievements\Achievement;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
@@ -15,10 +16,10 @@ use Ramsey\Uuid\Uuid;
  * Model for the table that will store the data regarding achievement progress and unlocks.
  *
  * @category Model
- * @package  Assada\Achievements\Model
+ * @package  ITVOLAND\Achievements\Model
  * @author   Gabriel Simonetti <simonettigo@gmail.com>
  * @license  MIT License
- * @link     https://github.com/itvoland/laravel-achievements
+ * @link     https://github.com/assada/laravel-achievements
  */
 class AchievementProgress extends Model
 {
@@ -147,7 +148,7 @@ class AchievementProgress extends Model
     }
 
     /**
-     * Maps to Assada\Achievements\Achievement::$name
+     * Maps to ITVOLAND\Achievements\Achievement::$name
      *
      * @return string
      */
@@ -157,7 +158,7 @@ class AchievementProgress extends Model
     }
 
     /**
-     * Maps to Assada\Achievements\Achievement::$description
+     * Maps to ITVOLAND\Achievements\Achievement::$description
      *
      * @return string
      */

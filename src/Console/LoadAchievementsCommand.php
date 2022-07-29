@@ -1,9 +1,9 @@
 <?php
 declare(strict_types=1);
 
-namespace ITvoland\Achievements\Console;
+namespace ITVOLAND\Achievements\Console;
 
-use ITvoland\Achievements\Achievement;
+use ITVOLAND\Achievements\Achievement;
 use Illuminate\Console\Command;
 use Illuminate\Console\ConfirmableTrait;
 use Illuminate\Support\Str;
@@ -11,7 +11,7 @@ use Illuminate\Support\Str;
 /**
  * Class LoadAchievements
  *
- * @package ITvoland\Achievements\Console
+ * @package ITVOLAND\Achievements\Console
  */
 class LoadAchievementsCommand extends Command
 {

@@ -1,17 +1,17 @@
 <?php
 declare(strict_types=1);
 
-namespace ITvoland\Tests;
+namespace ITVOLAND\Tests;
 
 use Illuminate\Foundation\Testing\TestCase;
 use Illuminate\Support\Facades\Artisan;
-use ITvoland\Tests\Model\User;
-use ITvoland\Achievements\AchievementsServiceProvider;
+use ITVOLAND\Tests\Model\User;
+use ITVOLAND\Achievements\AchievementsServiceProvider;
 
 /**
  * Class DBTestCase
  *
- * @package ITvoland\Tests
+ * @package ITVOLAND\Tests
  */
 class DBTestCase extends TestCase
 {

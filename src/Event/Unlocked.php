@@ -1,14 +1,15 @@
 <?php
 declare(strict_types=1);
-namespace ITvoland\Achievements\Event;
 
-use ITvoland\Achievements\Model\AchievementProgress;
+namespace ITVOLAND\Achievements\Event;
+
+use ITVOLAND\Achievements\Model\AchievementProgress;
 use Illuminate\Queue\SerializesModels;
 
 /**
  * Class Unlocked
  *
- * @package Assada\Achievements\Event
+ * @package ITVOLAND\Achievements\Event
  */
 class Unlocked
 {

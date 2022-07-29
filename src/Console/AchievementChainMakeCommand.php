@@ -1,6 +1,7 @@
 <?php
 declare(strict_types=1);
-namespace ITvoland\Achievements\Console;
+
+namespace ITVOLAND\Achievements\Console;
 
 use Illuminate\Console\GeneratorCommand;
 
@@ -8,10 +9,10 @@ use Illuminate\Console\GeneratorCommand;
  * Creates an achievement chain class stub.
  *
  * @category Command
- * @package  ITvoland\Achievements\Command
+ * @package  ITVOLAND\Achievements\Command
  * @author   Gabriel Simonetti <simonettigo@gmail.com>
  * @license  MIT License
- * @link     https://github.com/itvoland/laravel-achievements
+ * @link     https://github.com/assada/laravel-achievements
  */
 class AchievementChainMakeCommand extends GeneratorCommand
 {

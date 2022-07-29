@@ -1,17 +1,18 @@
 <?php
 declare(strict_types=1);
-namespace ITvoland\Achievements;
 
-use ITvoland\Achievements\Event\Progress as ProgressEvent;
-use ITvoland\Achievements\Event\Unlocked as UnlockedEvent;
-use ITvoland\Achievements\Model\AchievementDetails;
-use ITvoland\Achievements\Model\AchievementProgress;
+namespace ITVOLAND\Achievements;
+
+use ITVOLAND\Achievements\Event\Progress as ProgressEvent;
+use ITVOLAND\Achievements\Event\Unlocked as UnlockedEvent;
+use ITVOLAND\Achievements\Model\AchievementDetails;
+use ITVOLAND\Achievements\Model\AchievementProgress;
 use Illuminate\Database\Eloquent\Model;
 
 /**
  * Class Achievement
  *
- * @package Assada\Achievements
+ * @package ITVOLAND\Achievements
  */
 abstract class Achievement implements CanAchieve
 {

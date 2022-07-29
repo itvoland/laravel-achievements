@@ -1,19 +1,19 @@
 <?php
 declare(strict_types=1);
 
-namespace ITvoland\Tests;
+namespace ITVOLAND\Tests;
 
-use ITvoland\Achievements\Achievement;
-use ITvoland\Achievements\Model\AchievementDetails;
-use ITvoland\Tests\Model\User;
-use ITvoland\Tests\Achievements\FirstPost;
-use ITvoland\Tests\Achievements\TenPosts;
+use ITVOLAND\Achievements\Achievement;
+use ITVOLAND\Achievements\Model\AchievementDetails;
+use ITVOLAND\Tests\Model\User;
+use ITVOLAND\Tests\Achievements\FirstPost;
+use ITVOLAND\Tests\Achievements\TenPosts;
 use Illuminate\Database\Eloquent\Relations\Relation;
 
 /**
  * Class AchievementTest
  *
- * @package ITvoland\Tests
+ * @package ITVOLAND\Tests
  */
 class AchievementTest extends DBTestCase
 {

@@ -1,15 +1,15 @@
 <?php
 declare(strict_types=1);
 
-namespace ITvoland\Tests\Model;
+namespace ITVOLAND\Tests\Model;
 
-use ITvoland\Achievements\Achiever;
+use ITVOLAND\Achievements\Achiever;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 
 /**
  * Class User
  *
- * @package ITvoland\Tests\Model
+ * @package ITVOLAND\Tests\Model
  */
 class User extends Authenticatable
 {

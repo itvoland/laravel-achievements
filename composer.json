@@ -1,31 +1,29 @@
 {
     "name": "itvoland/laravel-achievements",
-    "description": "Achievements for Laravel",
-    "type": "project",
+    "description": "Achievements for Laravel 6+",
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Volodymyr Davydenko",
+            "email": "vovadavydenko35@gmail.com"
+        }
+    ],
     "autoload": {
         "classmap": [
             "src/Migrations"
         ],
         "psr-4": {
-            "ITvoland\\Achievements\\": "src/",
-            "ITvoland\\Tests\\": "tests/"
+            "ITVOLAND\\Achievements\\": "src/",
+            "ITVOLAND\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "ITvoland\\Achievements\\AchievementsServiceProvider"
+                "ITVOLAND\\Achievements\\AchievementsServiceProvider"
             ]
         }
     },
-    "authors": [
-        {
-            "name": "Davydenko Volodymyr",
-            "email": "vovadavydenko35@gmail.com"
-        }
-    ],
-    "minimum-stability": "dev",
     "require": {
         "ramsey/uuid": "^3 || ^4"
     },

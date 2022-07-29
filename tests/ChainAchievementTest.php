@@ -1,18 +1,18 @@
 <?php
 declare(strict_types=1);
 
-namespace ITvoland\Tests;
+namespace ITVOLAND\Tests;
 
-use ITvoland\Tests\AchievementChains\PostChain;
-use ITvoland\Tests\Achievements\FiftyPosts;
-use ITvoland\Tests\Achievements\FirstPost;
-use ITvoland\Tests\Achievements\TenPosts;
-use ITvoland\Tests\Model\User;
+use ITVOLAND\Tests\AchievementChains\PostChain;
+use ITVOLAND\Tests\Achievements\FiftyPosts;
+use ITVOLAND\Tests\Achievements\FirstPost;
+use ITVOLAND\Tests\Achievements\TenPosts;
+use ITVOLAND\Tests\Model\User;
 
 /**
  * Class ChainAchievementTest
  *
- * @package ITvoland\Tests
+ * @package ITVOLAND\Tests
  */
 class ChainAchievementTest extends DBTestCase
 {

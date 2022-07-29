@@ -1,16 +1,17 @@
 <?php
 declare(strict_types=1);
-namespace ITvoland\Achievements;
 
-use ITvoland\Achievements\Console\AchievementChainMakeCommand;
-use ITvoland\Achievements\Console\AchievementMakeCommand;
-use ITvoland\Achievements\Console\LoadAchievementsCommand;
+namespace ITVOLAND\Achievements;
+
+use ITVOLAND\Achievements\Console\AchievementChainMakeCommand;
+use ITVOLAND\Achievements\Console\AchievementMakeCommand;
+use ITVOLAND\Achievements\Console\LoadAchievementsCommand;
 use Illuminate\Support\ServiceProvider;
 
 /**
  * Class AchievementsServiceProvider
  *
- * @package ITvoland\Achievements
+ * @package ITVOLAND\Achievements
  */
 class AchievementsServiceProvider extends ServiceProvider
 {
@@ -32,7 +33,7 @@ class AchievementsServiceProvider extends ServiceProvider
             );
         }
         $this->app[Achievement::class] = static function ($app) {
-            return $app['gstt.achievements.achievement'];
+            return $app['itvoland.achievements.achievement'];
         };
         $this->publishes(
             [

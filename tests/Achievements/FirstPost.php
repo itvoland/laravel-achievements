@@ -1,14 +1,14 @@
 <?php
 declare(strict_types=1);
 
-namespace ITvoland\Tests\Achievements;
+namespace ITVOLAND\Tests\Achievements;
 
-use ITvoland\Achievements\Achievement;
+use ITVOLAND\Achievements\Achievement;
 
 /**
  * Class FirstPost
  *
- * @package ITvoland\Tests\Achievements
+ * @package ITVOLAND\Tests\Achievements
  */
 class FirstPost extends Achievement
 {
