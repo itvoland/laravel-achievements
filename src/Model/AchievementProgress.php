@@ -8,6 +8,7 @@ use ITvoland\Achievements\Achievement;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\MorphTo;
+use Illuminate\Support\Facades\Config;
 use Ramsey\Uuid\Uuid;
 
 /**

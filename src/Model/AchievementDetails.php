@@ -5,6 +5,7 @@ namespace ITvoland\Achievements\Model;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
+use Illuminate\Support\Facades\Config;
 
 /**
  * Model for the table that will store the details for an Achievement Progress.
