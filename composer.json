@@ -1,0 +1,19 @@
+{
+    "name": "itvoland/laravel-achievements",
+    "description": "Achievements for Laravel",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "ITvoland\\LaravelAchievements\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Davydenko Volodymyr",
+            "email": "vovadavydenko35@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
