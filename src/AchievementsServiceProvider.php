@@ -10,7 +10,7 @@ use Illuminate\Support\ServiceProvider;
 /**
  * Class AchievementsServiceProvider
  *
- * @package Assada\Achievements
+ * @package ITvoland\Achievements
  */
 class AchievementsServiceProvider extends ServiceProvider
 {
