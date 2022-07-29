@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Config;
  * @package  ITVOLAND\Achievements\Model
  * @author   Gabriel Simonetti <simonettigo@gmail.com>
  * @license  MIT License
- * @link     https://github.com/assada/laravel-achievements
+ * @link     https://github.com/itvoland/laravel-achievements
  */
 class AchievementDetails extends Model
 {

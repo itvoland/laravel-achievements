@@ -12,7 +12,7 @@ use Illuminate\Console\GeneratorCommand;
  * @package  ITVOLAND\Achievements\Command
  * @author   Gabriel Simonetti <simonettigo@gmail.com>
  * @license  MIT License
- * @link     https://github.com/assada/laravel-achievements
+ * @link     https://github.com/itvoland/laravel-achievements
  */
 class AchievementChainMakeCommand extends GeneratorCommand
 {
